@@ -1,0 +1,1 @@
+{"uuid":"c8a7e2fe-7105-4a1a-bb35-842f3c6c0b15","name":"loginDeleteProductTest()","children":["a45e50e5-d0cb-4c0b-9a78-e9f6b042b55d"],"befores":[{"name":"listebnerSetup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739732260991,"stop":1739732260991}],"afters":[],"start":1739732260989,"stop":1739732261368}

@@ -40,3 +40,8 @@ tasks.withType(Test) {
         }
     }
 }
+task uiapiweb_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("ApiUiTests")
+    }
+}

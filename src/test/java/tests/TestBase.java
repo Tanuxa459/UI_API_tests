@@ -14,11 +14,38 @@ public class TestBase {
     String login = "reg@mail.ru",
             password = "qwerty123";
 
+
     @BeforeAll
     static void setup() {
+
         Configuration.baseUrl = "https://demowebshop.tricentis.com";
         RestAssured.baseURI = "https://demowebshop.tricentis.com";
+
+
+        Configuration.pageLoadStrategy = "eager";
+
+        String remoteHost = System.getProperty("remoteHost", "host");
+        String userdata = System.getProperty("userdata", "userdata");
+        Configuration.remote = userdata + remoteHost + "/wd/hub";
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "114");
+        Configuration.browserSize = System.getProperty("browserSize", "1920×1080");
+        //SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+//                "enableVNC", true,
+//                "enableVideo", true
+//        ));
+//        Configuration.browserCapabilities = capabilities;
     }
+
+
+
+
+
+
+
 
     String authMetod(String login,String password) {
 
