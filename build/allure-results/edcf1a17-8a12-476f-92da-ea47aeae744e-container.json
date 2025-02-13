@@ -1,0 +1,1 @@
+{"uuid":"edcf1a17-8a12-476f-92da-ea47aeae744e","name":"loginWithAddApiTest()","children":["3822e5ae-b883-41b3-b708-c7908b44b850"],"befores":[{"name":"listebnerSetup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739732261372,"stop":1739732261372}],"afters":[],"start":1739732261370,"stop":1739732261770}
