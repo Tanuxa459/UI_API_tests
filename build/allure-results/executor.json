@@ -1,1 +1,1 @@
-{"name":"Gradle","type":"gradle","taskName":"uiapiweb_test","buildName":"UI_API_tests","projectPath":":","projectVersion":"unspecified"}
+{"name":"Gradle","type":"gradle","taskName":"test","buildName":"UI_API_tests","projectPath":":","projectVersion":"unspecified"}

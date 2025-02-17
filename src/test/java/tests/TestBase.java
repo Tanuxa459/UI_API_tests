@@ -24,11 +24,12 @@ public class TestBase {
             password = "qwerty123";
 
     @BeforeEach
-    void listebnerSetup(){
+    void listebnerSetup() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
+
     @BeforeEach
-    void closeWebdriver(){
+    void closeWebdriver() {
         Selenide.closeWebDriver();
     }
 
@@ -63,17 +64,11 @@ public class TestBase {
                 "enableVNC", true,
                 "enableVideo", true
         ));
-                Configuration.browserCapabilities = capabilities;
+        Configuration.browserCapabilities = capabilities;
     }
 
 
-
-
-
-
-
-
-    String authMetod(String login,String password) {
+    String authMetod(String login, String password) {
 
 
         String authCookieKey = "NOPCOMMERCE.AUTH";

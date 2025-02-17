@@ -22,28 +22,17 @@ import static io.restassured.RestAssured.given;
 public class UiAndApitests extends TestBase {
 
 
-
     @Test
     void loginWithApiTest() {
 
-        step("Get authorization cookie by api and set it to browser", () -> {
-            String authCookieKey = "NOPCOMMERCE.AUTH";
-            String authCookieValue = given()
-                    .contentType("application/x-www-form-urlencoded")
-                    .formParam("Email", login)
-                    .formParam("Password", password)
-                    .when()
-                    .post("/login")
-                    .then()
-                    .log().all()
-                    .statusCode(302)
-                    .extract()
-                    .cookie(authCookieKey);
 
-            open("https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png");
-            Cookie authCookie = new Cookie(authCookieKey, authCookieValue);
-            getWebDriver().manage().addCookie(authCookie);
-        });
+        String authCookieValue = authMetod(login, password);
+        String authCookieKey = "NOPCOMMERCE.AUTH";
+
+        open("/Content/jquery-ui-themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png");
+        Cookie authCookie = new Cookie(authCookieKey, authCookieValue);
+        getWebDriver().manage().addCookie(authCookie);
+
 
         step("Open main page", () ->
                 open(""));

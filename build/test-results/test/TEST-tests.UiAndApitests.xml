@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.UiAndApitests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-02-16T18:36:40" hostname="DESKTOP-49FATQ1" time="10.226">
+<testsuite name="tests.UiAndApitests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-17T18:00:02" hostname="DESKTOP-49FATQ1" time="9.801">
   <properties/>
-  <testcase name="loginWithApiTest()" classname="tests.UiAndApitests" time="6.568"/>
-  <testcase name="loginDeleteProductTest()" classname="tests.UiAndApitests" time="1.859"/>
-  <testcase name="loginWithAddApiTest()" classname="tests.UiAndApitests" time="1.788"/>
+  <testcase name="loginWithApiTest()" classname="tests.UiAndApitests" time="9.801"/>
   <system-out><![CDATA[HTTP/1.1 302 Found
 Content-Length: 118
 Content-Type: text/html; charset=utf-8
-Date: Sun, 16 Feb 2025 18:36:43 GMT
+Date: Mon, 17 Feb 2025 18:00:04 GMT
 Server: Microsoft-IIS/10.0
 Cache-Control: private
 Location: /
-Set-Cookie: Nop.customer=e1afa588-e307-4330-ad16-6a1fd4668fb3; expires=Mon, 16-Feb-2026 18:36:43 GMT; path=/; HttpOnly
-Set-Cookie: NOPCOMMERCE.AUTH=691F601B32342D5D84D1616FB8A999B263332E93B74A34710B6813B143B39389726AF57A76111ADEBA756B8A23B86DF621E53332CFACF6653C9DE3AEC5E7D9ACE86B88C60A7DA467AA2C30BEF5F4B178DF2C2CE0C9F034DBCEA9D21FA054F764CC1F5539C3DC7D7B9386A52220454831CB6CC08A0BB8A82459EF1B8D785E0F75; path=/; HttpOnly
+Set-Cookie: Nop.customer=e11b24e4-d417-4664-9180-d636d1dc76d1; expires=Tue, 17-Feb-2026 18:00:04 GMT; path=/; HttpOnly
+Set-Cookie: NOPCOMMERCE.AUTH=2C0A78E66710ECA88B82333701649102510856A5133320CF46F3703A2EB5948881AB5FD4AA4E30A4543CB1FB8FF101000EA0389D656E6867259A74800420A23DBC16E25A1AFCFCF01DA2D8D920F366355B3278899657C404DF3FE25D82C4748786A1982AFF035773E1FFF2A3D85B167B6A5BFB0D63A3C65C11522DABB4ADB472; path=/; HttpOnly
 Set-Cookie: ARRAffinity=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;Secure;Domain=demowebshop.tricentis.com
 Set-Cookie: ARRAffinitySameSite=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;SameSite=None;Secure;Domain=demowebshop.tricentis.com
 X-AspNetMvc-Version: 5.2
@@ -29,117 +27,25 @@ Object moved to       <a shape="rect" href="/">here</a>
 .    </h2>
   </body>
 </html>
-HTTP/1.1 302 Found
-Content-Length: 118
-Content-Type: text/html; charset=utf-8
-Date: Sun, 16 Feb 2025 18:36:47 GMT
-Server: Microsoft-IIS/10.0
-Cache-Control: private
-Location: /
-Set-Cookie: Nop.customer=19c91602-dcd2-405d-8890-d26e6d87e56b; expires=Mon, 16-Feb-2026 18:36:48 GMT; path=/; HttpOnly
-Set-Cookie: NOPCOMMERCE.AUTH=7D8C0DC722DA9DEC7851CF5B35B90BC3BD10A0CC0F9397E613A231892E0E91C16D8147A707C78284CFCCE8BE8899B6BC67D6DE8B5CFD2AF85F3232BDF2572F6A9F4E3A15C79DB2D3927B89EC62E769B756AD43B13D8B13038EBF7A98E9E62111036405520A8435912F7E766C0C8C99D21F9B8BCA7D3FC1C26EAC0FA4FC17A5AE; path=/; HttpOnly
-Set-Cookie: ARRAffinity=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;Secure;Domain=demowebshop.tricentis.com
-Set-Cookie: ARRAffinitySameSite=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;SameSite=None;Secure;Domain=demowebshop.tricentis.com
-X-AspNetMvc-Version: 5.2
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-
-<html>
-  <head>
-    <title>Object moved</title>
-  </head>
-  <body>
-    <h2>
-Object moved to       <a shape="rect" href="/">here</a>
-.    </h2>
-  </body>
-</html>
-HTTP/1.1 200 OK
-Content-Length: 767
-Content-Type: application/json; charset=utf-8
-Date: Sun, 16 Feb 2025 18:36:48 GMT
-Server: Microsoft-IIS/10.0
-Cache-Control: private
-Content-Encoding: gzip
-Set-Cookie: Nop.customer=cdf8a698-ca77-4be7-8073-4f938555a472; expires=Mon, 16-Feb-2026 18:36:48 GMT; path=/; HttpOnly
-Set-Cookie: ARRAffinity=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;Secure;Domain=demowebshop.tricentis.com
-Set-Cookie: ARRAffinitySameSite=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;SameSite=None;Secure;Domain=demowebshop.tricentis.com
-Vary: Accept-Encoding
-X-AspNetMvc-Version: 5.2
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-
-{
-    "success": true,
-    "message": "The product has been added to your <a href=\"/cart\">shopping cart</a>",
-    "updatetopcartsectionhtml": "(2)",
-    "updateflyoutcartsectionhtml": "<div id=\"flyout-cart\" class=\"flyout-cart\">\r\n    <div class=\"mini-shopping-cart\">\r\n        <div class=\"count\">\r\nThere are <a href=\"/cart\" class=\"items\">2 item(s)</a> in your cart.        </div>\r\n            <div class=\"items\">\r\n                    <div class=\"item first\">\r\n                            <div class=\"picture\">\r\n                                <a href=\"/fiction\" title=\"Show details for Fiction\">\r\n                                    <img alt=\"Picture of Fiction\" src=\"https://demowebshop.tricentis.com/content/images/thumbs/0000133_fiction_47.jpeg\" title=\"Show details for Fiction\" />\r\n                                </a>\r\n                            </div>\r\n                        <div class=\"product\">\r\n                            <div class=\"name\">\r\n                                <a href=\"/fiction\">Fiction</a>\r\n                            </div>\r\n                            <div class=\"price\">Unit price: <span>24.00</span></div>\r\n                            <div class=\"quantity\">Quantity: <span>2</span></div>\r\n                        </div>\r\n                    </div>\r\n            </div>\r\n            <div class=\"totals\">Sub-Total: <strong>48.00</strong></div>\r\n            <div class=\"buttons\">\r\n                    <input type=\"button\" value=\"Go to cart\" class=\"button-1 cart-button\" onclick=\"setLocation('/cart')\" />\r\n                            </div>\r\n    </div>\r\n</div>\r\n"
-}
-HTTP/1.1 302 Found
-Content-Length: 118
-Content-Type: text/html; charset=utf-8
-Date: Sun, 16 Feb 2025 18:36:49 GMT
-Server: Microsoft-IIS/10.0
-Cache-Control: private
-Location: /
-Set-Cookie: Nop.customer=d4575e88-4feb-49d3-97f2-c2e11f1d2f95; expires=Mon, 16-Feb-2026 18:36:50 GMT; path=/; HttpOnly
-Set-Cookie: NOPCOMMERCE.AUTH=A3152A43269C829C931A80D3A114BB1A5643483E85886CD4D148C8159A7710183BA2C85D5C0E66D53B5D597C2AF5C606F8177CEE06E91B17C2C3FBE45F4ABBF522F55F4006D620E61FC31428184007F524A3A9C00A48365B07903ABD4232F60EE60B3D3A4BDC3E3D8174B42621CD32CED983DB13FF706AA583993ED9C93D4312; path=/; HttpOnly
-Set-Cookie: ARRAffinity=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;Secure;Domain=demowebshop.tricentis.com
-Set-Cookie: ARRAffinitySameSite=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;SameSite=None;Secure;Domain=demowebshop.tricentis.com
-X-AspNetMvc-Version: 5.2
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-
-<html>
-  <head>
-    <title>Object moved</title>
-  </head>
-  <body>
-    <h2>
-Object moved to       <a shape="rect" href="/">here</a>
-.    </h2>
-  </body>
-</html>
-HTTP/1.1 200 OK
-Content-Length: 765
-Content-Type: application/json; charset=utf-8
-Date: Sun, 16 Feb 2025 18:36:49 GMT
-Server: Microsoft-IIS/10.0
-Cache-Control: private
-Content-Encoding: gzip
-Set-Cookie: Nop.customer=cdf8a698-ca77-4be7-8073-4f938555a472; expires=Mon, 16-Feb-2026 18:36:50 GMT; path=/; HttpOnly
-Set-Cookie: ARRAffinity=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;Secure;Domain=demowebshop.tricentis.com
-Set-Cookie: ARRAffinitySameSite=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631;Path=/;HttpOnly;SameSite=None;Secure;Domain=demowebshop.tricentis.com
-Vary: Accept-Encoding
-X-AspNetMvc-Version: 5.2
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-
-{
-    "success": true,
-    "message": "The product has been added to your <a href=\"/cart\">shopping cart</a>",
-    "updatetopcartsectionhtml": "(1)",
-    "updateflyoutcartsectionhtml": "<div id=\"flyout-cart\" class=\"flyout-cart\">\r\n    <div class=\"mini-shopping-cart\">\r\n        <div class=\"count\">\r\nThere are <a href=\"/cart\" class=\"items\">1 item(s)</a> in your cart.        </div>\r\n            <div class=\"items\">\r\n                    <div class=\"item first\">\r\n                            <div class=\"picture\">\r\n                                <a href=\"/fiction\" title=\"Show details for Fiction\">\r\n                                    <img alt=\"Picture of Fiction\" src=\"https://demowebshop.tricentis.com/content/images/thumbs/0000133_fiction_47.jpeg\" title=\"Show details for Fiction\" />\r\n                                </a>\r\n                            </div>\r\n                        <div class=\"product\">\r\n                            <div class=\"name\">\r\n                                <a href=\"/fiction\">Fiction</a>\r\n                            </div>\r\n                            <div class=\"price\">Unit price: <span>24.00</span></div>\r\n                            <div class=\"quantity\">Quantity: <span>1</span></div>\r\n                        </div>\r\n                    </div>\r\n            </div>\r\n            <div class=\"totals\">Sub-Total: <strong>24.00</strong></div>\r\n            <div class=\"buttons\">\r\n                    <input type=\"button\" value=\"Go to cart\" class=\"button-1 cart-button\" onclick=\"setLocation('/cart')\" />\r\n                            </div>\r\n    </div>\r\n</div>\r\n"
-}
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\takli\IdeaProjects\UI_API_tests\build\downloads\1739731003120_3740_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\takli\IdeaProjects\UI_API_tests\build\downloads\1739815204875_34596_1
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\takli\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
-февр. 16, 2025 9:36:43 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+февр. 17, 2025 9:00:06 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-февр. 16, 2025 9:36:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+февр. 17, 2025 9:00:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-февр. 16, 2025 9:36:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+февр. 17, 2025 9:00:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=133.0.6943.98 Platform=windows
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.16.1
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (d66819355210c22b37417cd66e67fd6c)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (d66819355210c22b37417cd66e67fd6c),proxy=null,downloadsFolder=C:\Users\takli\IdeaProjects\UI_API_tests\build\downloads\1739731003120_3740_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (80c8452e84c0492cb09ce8db008f420e)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (80c8452e84c0492cb09ce8db008f420e),proxy=null,downloadsFolder=C:\Users\takli\IdeaProjects\UI_API_tests\build\downloads\1739815204875_34596_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>
