@@ -1,6 +1,9 @@
 package tests;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
 import models.ResponceAddModel;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Cookie;
@@ -18,6 +21,11 @@ import static io.restassured.RestAssured.given;
 @Tag("ApiUiTests")
 public class UiAndApitests extends TestBase {
 
+
+    @BeforeEach
+    void listebner(){
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+    }
 
     @Test
     void loginWithApiTest() {

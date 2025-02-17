@@ -5,6 +5,7 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.Cookie;
 
 import static com.codeborne.selenide.Selenide.open;
@@ -15,6 +16,11 @@ public class TestBase {
 
     String login = "reg@mail.ru",
             password = "qwerty123";
+
+    @BeforeEach
+    void listebnerSetup(){
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+    }
 
 
     @BeforeAll
@@ -31,15 +37,15 @@ public class TestBase {
         Configuration.remote = userdata + remoteHost + "/wd/hub";
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "114");
-        Configuration.browserSize = System.getProperty("browserSize", "1920×1080");
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+        //Configuration.browserSize = System.getProperty("browserSize", "1920×1080");
+
 
 //        DesiredCapabilities capabilities = new DesiredCapabilities();
 //        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
 //                "enableVNC", true,
 //                "enableVideo", true
 //        ));
-//        Configuration.browserCapabilities = capabilities;
+        //        Configuration.browserCapabilities = capabilities;
     }
 
 
