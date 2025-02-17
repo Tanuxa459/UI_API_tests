@@ -22,10 +22,6 @@ import static io.restassured.RestAssured.given;
 public class UiAndApitests extends TestBase {
 
 
-    @BeforeEach
-    void listebner(){
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-    }
 
     @Test
     void loginWithApiTest() {
