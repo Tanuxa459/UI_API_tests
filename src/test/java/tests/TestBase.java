@@ -24,7 +24,7 @@ public class TestBase {
             password = "qwerty123";
 
     @BeforeEach
-    void listebnerSetup() {
+    void listenerSetup() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
