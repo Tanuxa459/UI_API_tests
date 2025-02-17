@@ -28,7 +28,7 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
-    @BeforeEach
+    @AfterEach
     void closeWebdriver() {
         Selenide.closeWebDriver();
     }
