@@ -40,7 +40,7 @@ public class UiAndApitests extends TestBase {
                     .extract()
                     .cookie(authCookieKey);
 
-            open("/Content/jquery-ui-themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png");
+            open("https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png");
             Cookie authCookie = new Cookie(authCookieKey, authCookieValue);
             getWebDriver().manage().addCookie(authCookie);
         });
